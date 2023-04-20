@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media only screen and (max-width: 1024px)  { 
+    .logo {
+        height: 30px !important;
+        width: 130px !important;
+    }
+} */
+@media only screen and (max-width: 1024px)  { 
+    .Logo {
+        height: 30px !important;
+        width: 130px !important;
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 1024px) { 
+    .logo {
+        height: 55px !important;
+        width: 272px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
